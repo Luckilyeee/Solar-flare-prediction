@@ -1,1 +1,5 @@
 # Solar-flare-prediction
+This project is about Solar flare prediction based on the time series of Solar MagneticField Parameters. The dataset is from Kaggle: **https://www.kaggle.com/c/bigdata2020-flare-prediction/data**. The dataset consists of 5 classes,namely X, M, C, B, and Q. To conduct the solar flare prediction task, the X- and M-classes of solar flares are considered to be positive class to represent the flaring active regions, the C-, B-, and Q-classesof solar flares are considered to be negative class to representthe non-flaring regions. The goal of this project is to conduct a binary classification between flaring (X-  and  M-classes) and non-flaring (C-, B-, and Q-classes) Active Regions. 
+
+I apply traditional machine learning models (Interval-based model,Shaplet-based  model,  and  Dictionary-based  model)  and  deeplearning models (Convolutional Neural Network and MultivariateLong  Short  Term  Memory  Fully  Convolutional  Networks)  to achieve  the  prediction  task.  Their  performances  are  evaluatedby using different metrics–Accuracy, Precision, Recall, F1 score,True  skill  statistic(TSS).
+
